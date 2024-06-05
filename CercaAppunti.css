@@ -1,0 +1,115 @@
+#intestazione_ricerca{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 2px;
+}
+
+#LabelTitolo{
+    width: 95%;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+form{
+
+    margin: 25px;
+}
+
+#flex_div_form{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#DivTitolo{
+    width: 50%;
+    
+}
+
+#DivButtonInvioAppunti{
+    width: 50%;
+
+}
+
+#bottoneInvio {
+    width: fit-content;
+    height: 30px;
+	border: 1px solid grey;
+	border-radius: 7px;
+	margin-top: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: grey;
+	background-color: rgb(232, 232, 232);
+	font-size: 12px;
+    margin-left: 15px;
+}
+#bottoneInvio:hover {
+	background-color: grey;
+	color: white;
+	border-color: #1084a7;
+}
+
+#AppuntoTrovato{
+    height: 78%;
+    width: 80%;
+    border: 3px solid grey;
+    border-style: inset;
+    margin-left: 25px;
+}
+
+.TitoloPar{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+
+.ContentPar{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#bottoneIndietro{
+    width: max-content;
+    height: 25px;
+
+	border: 1px solid grey;
+	border-radius: 7px;
+	margin-top: 5px;
+    margin-left: 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	color: grey;
+	background-color: rgb(232, 232, 232);
+	font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#bottoneIndietro:hover {
+	background-color: grey;
+	color: white;
+	border-color: #1084a7;
+    box-shadow: 2px 2px black;
+}
